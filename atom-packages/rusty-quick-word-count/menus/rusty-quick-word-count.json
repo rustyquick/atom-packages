@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle rusty-quick-word-count",
+        "command": "rusty-quick-word-count:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "rusty-quick-word-count",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "rusty-quick-word-count:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
